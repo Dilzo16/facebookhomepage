@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.container{
+    display: flex;
+    height: 92vh;
+}
+
+.right{
+    background: #e8eef7;
+    width: 25%;
+    overflow-y: scroll;
+    scrollbar-width: none;
+}
+.right::-webkit-scrollbar{
+    display: none;
+}
+.left{
+    background: #e8eef7;
+    width: 300px;
+    overflow-y: scroll;
+    scrollbar-width: none;
+}
+.left::-webkit-scrollbar{
+    display: none;
+}
+.middle{
+    background-color: #e8eef7;
+    flex: 1;
+    overflow-y: scroll;
+    scrollbar-width: none;
+    padding: 10px 20px 0px 20px;
+
+}
+
+.middle::-webkit-scrollbar{
+    display: none;
+}
+@media only screen and (max-width:768px){
+    .left{
+        width: 45px;
+    }
+    p{
+        display: none;
+    }
+}

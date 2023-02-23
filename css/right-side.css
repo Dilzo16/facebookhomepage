@@ -1,0 +1,241 @@
+.right{
+    padding: 5px 10px;
+}
+
+.profiles{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+.profiles-heading{
+    max-width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 20px;
+    font-weight: bold;
+    align-items: center;
+    padding: 10px 0px;
+}
+.profiles-heading img{
+    width: 20px;
+}
+.page{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+    font-weight: 600;
+}
+.page img{
+    margin-right: 10px;
+}
+.profiles-icon{
+    width: 100%-10px;
+    display: flex;
+    flex-direction: row;
+    font-size: 14px;
+    padding: 10px;
+    margin-left: 10px;
+}
+
+.page:hover ,.profiles-icon:hover,.friend-request:hover,.contact:hover{
+ background:rgba(215, 218, 222, 0.4) ;
+ border-radius: 10px;
+}
+.profiles-icon img{
+    width: 20px;
+    margin-right: 10px;
+}
+
+.requests{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.request-header{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px 0px;
+}
+.request-header span{
+    color: #216fdb;
+    font-size: 16px;
+}
+.friend-request{
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.friend-icon{
+    display: flex;
+    align-items: start;
+    width:30%;
+}
+.friend-icon img{
+    width: 70px;
+    min-height: 70px;
+    border-radius: 50%;
+}
+.request-content{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.name{
+    display: flex;
+    justify-content: space-between;
+    padding: 7px;
+    font-size: 16px;
+    font-weight: 600;
+}
+span{
+    font-size: 12px;
+    font-weight: 100;
+    color: #bcbec1;
+}
+.mfriends{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: left;
+    align-items: center;
+    font-size: 12px;
+    color: #bcbec1;
+}
+.mfriend{
+    position: relative;
+    width: 25px;
+    height: 25px;
+}
+
+.mfriend img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border: 3px solid white;
+}
+  .mfriend.two img {
+    position: absolute;
+    right:50%;
+    z-index: 2;
+  }
+  .mfriend.one img {
+    position: absolute;
+    z-index: 1;
+  }
+
+  .buttons{
+    margin-top: 10px;
+    display: flex;
+    width: 100%;
+  }
+
+  .confirm ,.delete{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    width: 40%;
+    font-weight: 600;
+    border-radius: 10px;
+  }
+  .confirm{
+    background-color: #1b74e4;
+  }
+
+  .delete{
+    margin-left: 10px;
+    background-color: #dadce1;
+  }
+.birthdates{
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    width: 100%;
+}
+.birth-content{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+.birth-content img{
+    width: 40px;
+    margin-right: 10px;
+}
+.b-text span{
+    font-weight: bold;
+    font-size: 16px;
+    color: black;
+}
+
+.contacts{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.contacts-header{
+    width: 100%;
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.con-img{
+    width: 40%;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+}
+.con-img img{
+    width: 20px;
+}
+.contact{
+    padding: 10px;
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-weight: 600;
+    position: relative;
+}
+.friend-img{
+
+    margin-right: 10px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 3px solid white;
+}
+.friend-img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.contact .dot{
+    position: absolute;
+    left: 10%;
+    bottom: 16%;
+    width: 8px;
+    height: 8px;
+    background-color: #44aa5d;
+    border-radius: 50%;
+    border: 2px solid white;
+}

@@ -1,0 +1,108 @@
+.left-icon img{
+    width: 40px;
+    height: 40px;
+    filter: invert(33%) sepia(64%) saturate(4042%) hue-rotate(206deg) brightness(99%) contrast(91%);
+}
+.left-profile img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.left-profile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-menu{
+   padding: 5px 10px;
+   overflow-y: scroll;
+   width: 100%;
+   height: 100vh;
+   scrollbar-width: none;
+}
+.left-menu::-webkit-scrollbar{
+    display: none;
+}
+.left-icon-line{
+    height: 1px;
+    background: #ced0d4;
+    width: 100%;
+}
+
+.shortcut{
+    display: flex;
+    width: 40px;
+    height: 40px;
+    background-color: #e4e6eb;
+    border-radius: 50%;
+    color: black;
+    font-size: 20px;
+    align-items: center;
+    justify-content: center;
+}
+.left-shortcuts img{
+width: 40px;
+height: 40px;
+border-radius: 20%;
+}
+
+.menu-item{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 52px;
+    padding-left: 20px;
+   justify-content: space-between;
+   margin-bottom: 4px;
+}
+
+.left-detail{
+    width: 200px;
+    /* font-size: 18px; */
+    font-weight:600;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.menu-item:hover{
+    border-radius: 10px;
+    background:rgba(215, 218, 222, 0.4) ;
+   
+   
+}
+
+
+@media only screen and (max-width:768px){
+    .left-icon img{
+        width: 20px;
+        height: 20px;
+    }
+    .left-profile img,
+    .left-shortcuts img,.shortcut{
+        max-width: 20px;
+        height: 20px;
+        font-size: 14px;
+    }
+    .left-menu{
+        padding:5px 5px;
+    }
+    .left-detail{
+        display: none;
+    }
+    .left-menu{
+        padding:5px 2px;
+     }
+     .menu-item{
+        display: flex;
+        align-items: center;
+        width: 100%;
+        height: 32px;
+        padding-left: 5px;
+        padding-right:5px;
+        padding-top:4px ;
+        padding-bottom: 4px;
+       justify-content:center;
+       margin-bottom: 4px;
+    }    
+}

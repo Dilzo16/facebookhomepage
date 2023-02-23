@@ -1,0 +1,84 @@
+.nav{
+    background-color: #ffffff;
+    min-height: 60px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2px 10px 2px 10px;
+    border-bottom: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+.nav .fb-logo,
+.search,
+.notifi-icons{
+    width: 33%;
+}
+
+.nav .search{
+    background: rgb(215, 218, 222);
+    min-height: 40px;
+    display: flex;
+    align-items: center;
+    padding: 2px 5px 2px 10px;
+    color: #6e6f72;
+    border-radius: 20px;
+    /* border: 1px solid black; */
+}
+.search img{
+    margin-right: 7px;
+}
+
+
+
+.nav .fb-logo img{
+    min-width: 200px;
+    max-height: 40px;
+}
+/* .nav .search{
+    border-radius: 20px;
+    height: 6vh;
+    background-color: #f0f2f5;
+} */
+
+.notifi-icons{
+    
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.notifi img{
+    width: 30px;
+    height: 30px;
+}
+.notifi{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background-color: #e4e6eb;
+    border-radius: 50px;
+}
+.notifi-icons div:nth-child(2){
+    margin: 0px 10px;
+}
+
+.rightdrop-container{
+width: 40px;
+height: 40px;
+border-radius: 50%;
+position: relative;
+}
+.dropdown{
+    display: flex;
+width: 20px;
+height: 20px;
+background-color: #e4e6eb;
+border-radius: 50%;
+position: absolute;
+bottom: 1px;
+left: 15px;
+border: 3px solid white;
+}

@@ -1,0 +1,34 @@
+.create-room{
+    margin-top: 15px;
+    margin-left: 15%;
+width: 70%;
+height: 8vh;
+box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+background-color: white;
+display: flex;
+align-items: center;
+padding: 10px;
+border-radius: 10px;
+
+}
+
+.room{
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    padding: 5px;
+    border-radius: 20px;
+    justify-content: space-between;
+    width: 30%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    color: #4baeeb;
+    font-weight: bold;
+    background-color: rgb(255, 255, 255);
+
+}
+
+.room img{
+    width: 30px;
+    height: 30px;
+    filter: invert(44%) sepia(35%) saturate(866%) hue-rotate(203deg) brightness(93%) contrast(105%);
+}
